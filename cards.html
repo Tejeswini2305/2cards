@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100vw;
+            height:100vh;
+            background-color: #ff930f;
+            display:flex;
+            justify-content: center;
+            flex-direction:column;
+            align-items:center;
+        }
+
+        .card{
+            width:400px;
+            height:600px;
+            border-radius: 25px;
+            background-color: azure;
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            gap:30px;
+            padding:20px;
+        }
+
+        .card img{
+            height:60%;
+            border-radius:25px;
+            border:1px solid black;
+        }
+
+        .card h2{
+            font-size:1.5rem;
+            font-weight: bold;
+        }
+
+        .card p{
+            font-size:1.2rem;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="card">
+                <img src="qrcode.webp" alt="qrcode">
+                <h2>Improve your frontend skills by doing projects.</h2>
+
+                <p>Start with small projects and gradually increase the complexity.</p>
+            </div>
+        </div>
+</body>
+</html>
